@@ -1,0 +1,111 @@
+#prestations{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    h2{
+        padding-top: 25px;
+        margin-bottom: 2vh;
+    }
+}
+
+// Carousel configuration parameters
+$n: 6;
+$item-width: 600px;
+$item-separation: 80px;
+$viewer-distance: 600px;
+
+// Derived variables
+$theta: 2 * 3.141592653589793 / $n; 
+$apothem: 482.842712474619px;
+
+#carousel-prestations {
+perspective: $viewer-distance;
+overflow: hidden;
+
+display: flex;
+flex-direction: column;
+align-items: center;
+> * {
+    flex: 0 0 auto;
+}
+
+figure {
+    margin: 0;
+    
+    width: $item-width;
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
+    transform-origin: 50% 50% (-$apothem);
+    
+    p {
+        text-align: center;
+        color:#863D8E;
+        font-size: 32px;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        text-shadow: 1px 1px  1px  #f2f2f2;
+        img{
+            margin-top: 15px;
+
+            width: 100%;
+            box-sizing: border-box;
+            padding: 0 $item-separation / 2;
+            
+            opacity: 0.97;
+            
+        }
+        &:not(:first-of-type) {
+            position: absolute;
+            left: 0;
+            top: 0;
+            transform-origin: 50% 50% (-$apothem);
+        }
+        
+        @for $i from 2 through $n {
+            &:nth-child(#{$i}) {
+                transform: rotateY(#{($i - 1) * $theta}rad);
+            }
+        }
+    }
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+
+    button {
+        flex: 0 0 auto;
+        margin: 0 15px;
+        font-size: 15px;
+        border-radius: 5px;
+        color: #E71E64;
+        background: transparent;
+        border: 2px solid #E71E64;
+        letter-spacing: 1px;
+        padding: 5px 10px;
+        height:40px;
+    }
+    button:hover{
+        cursor: pointer;
+        color:#863D8E;
+        font-size: 17px;
+        border: 4px solid #863D8E;
+        height:44px;
+        
+    }   
+    button:focus{
+        outline:none;
+        color:#863D8E;
+        font-size: 17px;
+        border: 4px solid #863D8E;
+        height:44px;            
+         
+    } 
+    
+}
+
+}
