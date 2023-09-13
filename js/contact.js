@@ -10,7 +10,7 @@ $('#contact-form').submit(function(e) {
         dataType: 'json',
         success: function(json) {
              
-        console.log("b");
+        console.log("mailSuccess");
             if(json.isSuccess) 
             {
                 $('#contact-form').append("<p class='thank-you'>Votre message a bien été envoyé. Merci de m'avoir contacté :)</p>");

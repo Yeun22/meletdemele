@@ -68,7 +68,7 @@
     function isPhone($phone){
         return preg_match("/^[0-9 ]*$/",$phone); //expression refulière, ici on demande un chiffre entre 0 et 9 soit un espace. * permet que le champ soit vide elle permet que on prennent ce qu'il y a entre crochet de zéro a autant de fois qu'on veut (sinon on met un + pour avoir un carractères minimum) 
     }
- 
+
     function isEmail($email){
         return filter_var($email, FILTER_VALIDATE_EMAIL);
     }

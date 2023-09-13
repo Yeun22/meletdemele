@@ -1,22 +1,32 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="description" 
-        content="Salon de toilettage à Chatélaudren dans les côtes d'armor. Ouverte du lundi au vendredi. Toilettage canin et félin. Ventes d'accessoires pour animaux. Produits naturels ...">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="design-carousel/css/carousel.css">
-        <noscript>Your browser does not support JavaScript!</noscript>
-        <!--Choix de la police-->
-        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
-        <link rel="shortcut icon" href="Images/logo.jpg"/>
-        <title>Mél & Démêle | Toilettage Chatélaudren</title>
-    </head>
-    <body>
-        <!-- Les sections : 
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="description"
+			content="Salon de toilettage à Chatélaudren dans les côtes d'armor. Ouverte du lundi au vendredi. Toilettage canin et félin. Ventes d'accessoires pour animaux. Produits naturels ..."
+		/>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="design-carousel/css/carousel.css" />
+		<noscript>Your browser does not support JavaScript!</noscript>
+		<!--Choix de la police-->
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+			integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu"
+			crossorigin="anonymous"
+		/>
+		<link rel="shortcut icon" href="Images/logo.jpg" />
+		<title>Mél & Démêle | Toilettage Chatélaudren</title>
+	</head>
+	<body>
+		<!-- Les sections : 
             Presentations
             Facebook
             Prestations 
@@ -31,346 +41,547 @@
             Avis
             Footer -> voir boucherie moderne
         -->
-        <header>
-            <div>
-                <img src="images/logo.jpg" alt="Logo Toilettage" />
-            </div>
-            <div>
-                <img src="images/maikaetgipsy.jpg" alt="chien et chat" />
-            </div>
-            <div>
-                <h3> Mel & <br /> Démêle</h3>
-            </div>
-        </header>
+		<header>
+			<div>
+				<img src="images/logo.jpg" alt="Logo Toilettage" />
+			</div>
+			<div>
+				<img src="images/maikaetgipsy.jpg" alt="chien et chat" />
+			</div>
+			<div>
+				<h3>
+					Mel & <br />
+					Démêle
+				</h3>
+			</div>
+		</header>
 
+		<nav class="navigation">
+			<ul>
+				<li>
+					<a href="#presentation" class="active"> Présentation</a>
+				</li>
+				<li><a href="#prestations"> Prestations</a></li>
+				<li><a href="#produits"> Produits</a></li>
+				<li><a href="#info-generales"> Informations</a></li>
+				<li><a href="#contact"> Contact</a></li>
+				<li><a href="#galerie"> Galerie</a></li>
+				<!-- <li> <a href="#avis"> Avis</a> </li> -->
+			</ul>
+		</nav>
 
-        <nav class="navigation">
-            <ul>
-                <li> <a href="#presentation" class="active"> Présentation</a> </li>
-                <li> <a href="#prestations"> Prestations</a> </li>
-                <li> <a href="#produits"> Produits</a> </li>
-                <li> <a href="#info-generales"> Informations</a> </li>
-                <li> <a href="#contact"> Contact</a> </li>
-                <li> <a href="#galerie"> Galerie</a> </li>
-                <!-- <li> <a href="#avis"> Avis</a> </li> -->
-            </ul>
-        </nav>
+		<div id="nav-mobile" class="navigation">
+			<button id="menu-btn"><i class="fas fa-paw"></i></button>
 
-        <div id="nav-mobile" class="navigation">
-            <button id="menu-btn"><i class="fas fa-paw"></i></button>
-            
-                <div class="menu-mobile-link">
-                    <ul>
-                        <li> <a href="#presentation" class="active"> Présentation</a> </li>
-                        <li> <a href="#prestations"> Prestations</a> </li>
-                        <li> <a href="#produits"> Produits</a> </li>
-                        <li> <a href="#info-generales"> Informations</a> </li>
-                        <li> <a href="#contact"> Contact</a> </li>
-                        <li> <a href="#galerie"> Galerie</a></li>
-                    </ul>
-            </div>
-         </div>
+			<div class="menu-mobile-link">
+				<ul>
+					<li>
+						<a href="#presentation" class="active"> Présentation</a>
+					</li>
+					<li><a href="#prestations"> Prestations</a></li>
+					<li><a href="#produits"> Produits</a></li>
+					<li><a href="#info-generales"> Informations</a></li>
+					<li><a href="#contact"> Contact</a></li>
+					<li><a href="#galerie"> Galerie</a></li>
+				</ul>
+			</div>
+		</div>
 
-        <section class="scrollspy" id="presentation">
-            <div>
-                <img src="images/melanie.jpg" alt="toiletteuse Mélanie Boishardy" />
-            </div>
-            <div class="presentation-text">
-                <h2>Présentation</h2>
-                <h4>Mélanie Boishardy, Toiletteuse Professionnelle.</h4>
-                <p class="mel-text"> Passionnée et amoureuse des animaux depuis l'enfance, j'ai décidé de contribuer à leur bien être au quotidien.<br />
-                Après avoir obtenu mon certifcat de toiletteuse canin et ayant engrangée de l'expérience dans ce domaine, je vous propose maintenant 
-                mon savoir-faire avec l'ouverture du salon <span class="rose"> Mel et Démêle </span> ! <br />
-                Vous pourrez y retrouver des produits naturels et adaptés aux besoins de vos compagnons.</p>
-                <p class="citation"> "On mesure la grandeur d'une nation, à la manière dont elle traite ses animaux." Gandhi</p>
-            </div>
-        </section>
+		<section class="scrollspy" id="presentation">
+			<div>
+				<img
+					src="images/melanie.jpg"
+					alt="toiletteuse Mélanie Boishardy"
+				/>
+			</div>
+			<div class="presentation-text">
+				<h2>Présentation</h2>
+				<h4>Mélanie Boishardy, Toiletteuse Professionnelle.</h4>
+				<p class="mel-text">
+					Passionnée et amoureuse des animaux depuis l'enfance, j'ai
+					décidé de contribuer à leur bien être au quotidien.<br />
+					Après avoir obtenu mon certifcat de toiletteuse canin et
+					ayant engrangée de l'expérience dans ce domaine, je vous
+					propose maintenant mon savoir-faire avec l'ouverture du
+					salon <span class="rose"> Mel et Démêle </span> ! <br />
+					Vous pourrez y retrouver des produits naturels et adaptés
+					aux besoins de vos compagnons.
+				</p>
+				<p class="citation">
+					"On mesure la grandeur d'une nation, à la manière dont elle
+					traite ses animaux." Gandhi
+				</p>
+			</div>
+		</section>
 
-        <section class="scrollspy" id="prestations">
-            <h2>Prestations</h2>
-            <div id="carousel-prestations">
-                <figure id="figure">
-                   <p> Bain <img src="images/Photo prestation/bain.jpg" alt="bains chien"> </p> 
-                   <p> Coupe Ciseaux <img src="images/Photo prestation/coupe ciseaux.jpg" alt="coupe ciseaux chiens"> </p>  
-                   <p> Tonte <img src="images/Photo prestation/tonte.jpg" alt="tonte petit chien">  </p> 
-                   <p> Démêlage <img src="images/Photo prestation/démêlage.jpg" alt="démêlage chat"> </p>
-                   <p> Couleur<img src="images/Photo prestation/couleur.jpg" alt="couleurs sur chien"> </p> 
-                   <p> Rectifications <img src="images/Photo prestation/bain et rectifs.jpg" alt="bains et rectifiactions Toilettage"> </p> 
-                  </figure>
-                  <nav>
-                    <button class="nav prev">Précédent</button>
-                    <button class="nav next">Suivant</button>
-                </nav>
-            </div>
-        </section>
+		<section class="scrollspy" id="prestations">
+			<h2>Prestations</h2>
+			<div id="carousel-prestations">
+				<figure id="figure">
+					<p>
+						Bain
+						<img
+							src="images/Photo prestation/bain.jpg"
+							alt="bains chien"
+						/>
+					</p>
+					<p>
+						Coupe Ciseaux
+						<img
+							src="images/Photo prestation/coupe ciseaux.jpg"
+							alt="coupe ciseaux chiens"
+						/>
+					</p>
+					<p>
+						Tonte
+						<img
+							src="images/Photo prestation/tonte.jpg"
+							alt="tonte petit chien"
+						/>
+					</p>
+					<p>
+						Démêlage
+						<img
+							src="images/Photo prestation/démêlage.jpg"
+							alt="démêlage chat"
+						/>
+					</p>
+					<p>
+						Couleur<img
+							src="images/Photo prestation/couleur.jpg"
+							alt="couleurs sur chien"
+						/>
+					</p>
+					<p>
+						Rectifications
+						<img
+							src="images/Photo prestation/bain et rectifs.jpg"
+							alt="bains et rectifiactions Toilettage"
+						/>
+					</p>
+				</figure>
+				<nav>
+					<button class="nav prev">Précédent</button>
+					<button class="nav next">Suivant</button>
+				</nav>
+			</div>
+		</section>
 
-        <section class="scrollspy" id="produits">
-            <h2>Produits</h2>  <!--| Click n Collect --> 
-            <div class="presentations-produits">
-                <div class="onglets-button">
-                    <button id="accessoires-btn" class="active"> Accessoires </button>    
-                    <button id="cosmetiques-btn"> Cosmétiques </button>    
-                    <button id="alimentation-btn"> Alimentations </button>    
-                    <button id="jouets-btn"> Jouets </button>    
-                    <button id="divers-btn"> Divers </button>    
-                </div>
-                <div id="accessoires" class="onglets-produits ">
-                    <div class="produits">
-                        <img src="images/Produits/accessoires/collier simili cuir.jpg" alt="collier chien cuir" />
-                        <p> Collier pour chien, simili cuir. Existe en différentes tailles. </p>
-                        <button class="commander">Commander</button>
-                    </div>
-                    <div class="produits">
-                        <img src="images/Produits/accessoires/corbeille-red-dingo-rouge.jpg" alt="panier chien" />
-                        <p> Panier chien entièrement déhoussable. </p>
-                        <button class="commander">Commander</button>
-                    </div>
-                    <div class="produits">
-                        <img src="images/Produits/accessoires/laisse en corde recyclée.jpg" alt="Laisse pour chiens"/>
-                        <p> Laisse en corde. </p>
-                        <button class="commander">Commander</button>
-                    </div>
-                    <div class="produits">
-                        <img src="images/Produits/accessoires/ensemble laisse et collier.jpg" alt="harnais et laisse chien" />
-                        <p> Ensemble Harnais + laisse </p>
-                        <button class="commander">Commander</button>
-                    </div>
-                </div>
+		<section class="scrollspy" id="produits">
+			<h2>Produits</h2>
+			<!--| Click n Collect -->
+			<div class="presentations-produits">
+				<div class="onglets-button">
+					<button id="accessoires-btn" class="active">
+						Accessoires
+					</button>
+					<button id="cosmetiques-btn">Cosmétiques</button>
+					<button id="alimentation-btn">Alimentations</button>
+					<button id="jouets-btn">Jouets</button>
+					<button id="divers-btn">Divers</button>
+				</div>
+				<div id="accessoires" class="onglets-produits">
+					<div class="produits">
+						<img
+							src="images/Produits/accessoires/collier simili cuir.jpg"
+							alt="collier chien cuir"
+						/>
+						<p>
+							Collier pour chien, simili cuir. Existe en
+							différentes tailles.
+						</p>
+						<button class="commander">Commander</button>
+					</div>
+					<div class="produits">
+						<img
+							src="images/Produits/accessoires/corbeille-red-dingo-rouge.jpg"
+							alt="panier chien"
+						/>
+						<p>Panier chien entièrement déhoussable.</p>
+						<button class="commander">Commander</button>
+					</div>
+					<div class="produits">
+						<img
+							src="images/Produits/accessoires/laisse en corde recyclée.jpg"
+							alt="Laisse pour chiens"
+						/>
+						<p>Laisse en corde.</p>
+						<button class="commander">Commander</button>
+					</div>
+					<div class="produits">
+						<img
+							src="images/Produits/accessoires/ensemble laisse et collier.jpg"
+							alt="harnais et laisse chien"
+						/>
+						<p>Ensemble Harnais + laisse</p>
+						<button class="commander">Commander</button>
+					</div>
+				</div>
 
-                <div id="cosmetiques" class="onglets-produits hide">
-                    <div class="produits">
-                        <img src="images/Produits/Cosmétiques/parfum floral.jpg" alt="parfum" />
-                        <p> Parfums naturels pour chien. Différentes senteurs. </p>
-                        <button class="commander">Commander</button>
-                    </div>
-                    <div class="produits">
-                        <img src="images/Produits/Cosmétiques/shampooing universel.jpg" alt="Shampoing universel chien et chat" />
-                        <p> Shampoing naturel universel chiens & chats. </p>
-                        <button class="commander">Commander</button>
-                    </div>
-                    <div class="produits">
-                        <img src="images/Produits/Cosmétiques/shampooing démangeaisons.jpg" alt="Shampoings spéciaux" />
-                        <p> Différents Shampoings spéciaux.  </p>
-                        <button class="commander">Commander</button>
-                    </div>
-                    <div class="produits">
-                        <img src="images/Produits/Cosmétiques/spray démêlant.jpg" alt="Spray démêlant chien ou chat" />
-                        <p> Spray démêlant. </p>
-                        <button class="commander">Commander</button>
-                    </div>
+				<div id="cosmetiques" class="onglets-produits hide">
+					<div class="produits">
+						<img
+							src="images/Produits/Cosmétiques/parfum floral.jpg"
+							alt="parfum"
+						/>
+						<p>
+							Parfums naturels pour chien. Différentes senteurs.
+						</p>
+						<button class="commander">Commander</button>
+					</div>
+					<div class="produits">
+						<img
+							src="images/Produits/Cosmétiques/shampooing universel.jpg"
+							alt="Shampoing universel chien et chat"
+						/>
+						<p>Shampoing naturel universel chiens & chats.</p>
+						<button class="commander">Commander</button>
+					</div>
+					<div class="produits">
+						<img
+							src="images/Produits/Cosmétiques/shampooing démangeaisons.jpg"
+							alt="Shampoings spéciaux"
+						/>
+						<p>Différents Shampoings spéciaux.</p>
+						<button class="commander">Commander</button>
+					</div>
+					<div class="produits">
+						<img
+							src="images/Produits/Cosmétiques/spray démêlant.jpg"
+							alt="Spray démêlant chien ou chat"
+						/>
+						<p>Spray démêlant.</p>
+						<button class="commander">Commander</button>
+					</div>
+				</div>
 
-                </div>
+				<div id="alimentation" class="onglets-produits hide">
+					<div class="produits">
+						<img
+							src="images/Produits/Alimentation/friandises/délices canard.jpg"
+							alt="friandise"
+						/>
+						<p>Friandises délices.</p>
+						<button class="commander">Commander</button>
+					</div>
+					<div class="produits">
+						<img
+							src="images/Produits/Alimentation/croquette/coming-soon-3008776_640.png"
+							alt="croquettes"
+						/>
+						<p>Croquettes pour Chiens & Chats.</p>
+						<button class="commander">Commander</button>
+					</div>
+					<div class="produits">
+						<img
+							src="images/Produits/Alimentation/os à macher/os à macher.jpg"
+							alt="os à mâcher"
+						/>
+						<p>Os pour nettoyer les dents naturels pour chiens.</p>
+						<button class="commander">Commander</button>
+					</div>
+					<div class="produits">
+						<img
+							src="images/Produits/Alimentation/os à macher/bois de cerf.jpg"
+							alt="bois de cerfs"
+						/>
+						<p>Bois de cerf à mâcher pour chiens.</p>
+						<button class="commander">Commander</button>
+					</div>
+				</div>
 
-                <div id="alimentation" class="onglets-produits hide">
-                    <div class="produits">
-                        <img src="images/Produits/Alimentation/friandises/délices canard.jpg" alt="friandise" />
-                        <p> Friandises délices. </p>
-                        <button class="commander">Commander</button>
-                    </div>
-                    <div class="produits">
-                        <img src="images/Produits/Alimentation/croquette/coming-soon-3008776_640.png" alt="croquettes" />
-                        <p> Croquettes pour Chiens & Chats. </p>
-                        <button class="commander">Commander</button>
-                    </div>
-                    <div class="produits">
-                        <img src="images/Produits/Alimentation/os à macher/os à macher.jpg" alt="os à mâcher" />
-                        <p> Os pour nettoyer les dents naturels pour chiens.</p>
-                        <button class="commander">Commander</button>
-                    </div>
-                    <div class="produits">
-                        <img src="images/Produits/Alimentation/os à macher/bois de cerf.jpg" alt="bois de cerfs" />
-                        <p> Bois de cerf à mâcher pour chiens. </p>
-                        <button class="commander">Commander</button>
-                    </div>
-                </div>
+				<div id="jouets" class="onglets-produits hide">
+					<div class="produits">
+						<img
+							src="images/Produits/Jouets/corde-a-2-noeuds.jpg"
+							alt="jouet corde"
+						/>
+						<p>Une corde à deux noeuds.</p>
+						<button class="commander">Commander</button>
+					</div>
+					<div class="produits">
+						<img
+							src="images/Produits/Jouets/display-de-15-peluches-sonores-pour-chien.jpg"
+							alt="peluches sonores chiens"
+						/>
+						<p>Peluche Sonore pour Chien</p>
+						<button class="commander">Commander</button>
+					</div>
+					<div class="produits">
+						<img
+							src="images/Produits/Jouets/jeu-chat-laser.jpg"
+							alt="jeu chat laser"
+						/>
+						<p>Laser lumineu pour chat.</p>
+						<button class="commander">Commander</button>
+					</div>
+					<div class="produits">
+						<img
+							src="images/Produits/Jouets/kong.jpg"
+							alt="kong chien"
+						/>
+						<p>Un kong pour chien.</p>
+						<button class="commander">Commander</button>
+					</div>
+					<div class="produits">
+						<img
+							src="images/Produits/Jouets/os-chiot.jpg"
+							alt="os en caoutchouc"
+						/>
+						<p>Os en caoutchouc pour chiot.</p>
+						<button class="commander">Commander</button>
+					</div>
+					<div class="produits">
+						<img
+							src="images/Produits/Jouets/raton-laveur-plat-sonore.jpg"
+							alt="peluche plate chien"
+						/>
+						<p>Peluches plates pour chiens.</p>
+						<button class="commander">Commander</button>
+					</div>
+				</div>
 
-                <div id="jouets" class="onglets-produits hide ">
-                    <div class="produits">
-                        <img src="images/Produits/Jouets/corde-a-2-noeuds.jpg" alt="jouet corde" />
-                        <p> Une corde à deux noeuds. </p>
-                        <button class="commander">Commander</button>
-                    </div>
-                    <div class="produits">
-                        <img src="images/Produits/Jouets/display-de-15-peluches-sonores-pour-chien.jpg" alt="peluches sonores chiens" />
-                        <p> Peluche Sonore pour Chien </p>
-                        <button class="commander">Commander</button>
-                    </div>
-                    <div class="produits">
-                        <img src="images/Produits/Jouets/jeu-chat-laser.jpg" alt="jeu chat laser" />
-                        <p> Laser lumineu pour chat. </p>
-                        <button class="commander">Commander</button>
-                    </div>
-                    <div class="produits">
-                        <img src="images/Produits/Jouets/kong.jpg" alt="kong chien" />
-                        <p> Un kong pour chien. </p>
-                        <button class="commander">Commander</button>
-                    </div>
-                    <div class="produits">
-                        <img src="images/Produits/Jouets/os-chiot.jpg" alt="os en caoutchouc" />
-                        <p>Os en caoutchouc pour chiot. </p>
-                        <button class="commander">Commander</button>
-                    </div>
-                    <div class="produits">
-                        <img src="images/Produits/Jouets/raton-laveur-plat-sonore.jpg" alt="peluche plate chien" />
-                        <p> Peluches plates pour chiens. </p>
-                        <button class="commander">Commander</button>
-                    </div>
-                </div>
+				<div id="divers" class="onglets-produits hide">
+					<div class="produits">
+						<img
+							src="images/Produits/Prêt-à-porter/bandana-hilo.jpg"
+							alt="bandana"
+						/>
+						<p>Un joli bandana pour votre chien.</p>
+						<button class="commander">Commander</button>
+					</div>
+					<div class="produits">
+						<img
+							src="images/Produits/Prêt-à-porter/impermeable-hiker-noox-technic.jpg"
+							alt="imperméable chien"
+						/>
+						<p>Imperméable pour protéger votre chien.</p>
+						<button class="commander">Commander</button>
+					</div>
+					<div class="produits">
+						<img
+							src="images/Produits/accessoires/sac à crottes biodégradables.jpg"
+							alt="sacs à crottes bio"
+						/>
+						<p>Sacs à crottes biodégradables.</p>
+						<button class="commander">Commander</button>
+					</div>
+					<div class="produits">
+						<img
+							src="images/Produits/accessoires/sac-de-transport-escale.jpg"
+							alt="Sac transport"
+						/>
+						<p>Sac de transport chic.</p>
+						<button class="commander">Commander</button>
+					</div>
+				</div>
+			</div>
+		</section>
 
-                <div id="divers" class="onglets-produits hide">
-                    <div class="produits">
-                        <img src="images/Produits/Prêt-à-porter/bandana-hilo.jpg" alt="bandana" />
-                        <p> Un joli bandana pour votre chien. </p>
-                        <button class="commander">Commander</button>
-                    </div>
-                    <div class="produits">
-                        <img src="images/Produits/Prêt-à-porter/impermeable-hiker-noox-technic.jpg" alt="imperméable chien" />
-                        <p> 
-                            Imperméable pour protéger votre chien. </p>
-                        <button class="commander">Commander</button>
-                    </div>
-                    <div class="produits">
-                        <img src="images/Produits/accessoires/sac à crottes biodégradables.jpg" alt="sacs à crottes bio" />
-                        <p> Sacs à crottes biodégradables. </p>
-                        <button class="commander">Commander</button>
-                    </div>
-                    <div class="produits">
-                        <img src="images/Produits/accessoires/sac-de-transport-escale.jpg" alt="Sac transport" />
-                        <p> Sac de transport chic. </p>
-                        <button class="commander">Commander</button>
-                    </div>
-                </div>
+		<section class="scrollspy" id="info-generales">
+			<div class="bg-dark">
+				<h2>Informations Utiles</h2>
+				<div class="info">
+					<div id="horaires">
+						<h3>Horaires</h3>
+						<li><span class="rose"> Lundi : </span> 9h - 18h</li>
+						<li><span class="rose"> Mardi : </span> 9h - 18h</li>
+						<li><span class="rose"> Mercredi : </span> 9h - 18h</li>
+						<li><span class="rose"> Jeudi : </span> 9h - 18h</li>
+						<li><span class="rose"> Vendredi : </span> 9h - 18h</li>
+						<li>Samedi : Fermé</li>
+						<li>Dimanche : Fermé</li>
+					</div>
+					<div id="info-contact" class="borderLR">
+						<h3>Me Contacter</h3>
+						<li>
+							<i class="fas fa-phone-alt"></i
+							><a href="tel:06 68 67 43 03"> 06 68 67 43 03 </a>
+						</li>
+						<br />
+						<li>
+							<i class="fas fa-envelope"></i
+							><a href="#contact">Via le Formulaire </a>
+						</li>
+						<br />
+						<li>
+							<i class="fas fa-map-marker-alt"></i
+							><a
+								href="https://goo.gl/maps/v2H5REyC3aL7Ki5P6"
+								target="_blank"
+								>9 rue Pasteur 22170 Châtelaudren</a
+							>
+						</li>
+					</div>
+					<div>
+						<h3>Plan d'accès</h3>
+						<iframe
+							src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2493.314255239768!2d-2.9718994066181645!3d48.541387496605495!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x122bb238b07f8279!2zTWVsICYgRMOpbcOqbGU!5e0!3m2!1sfr!2sfr!4v1623780339093!5m2!1sfr!2sfr"
+							width="90%"
+							height="70%"
+							style="border: 0"
+							allowfullscreen=""
+							loading="lazy"
+						></iframe>
+					</div>
+				</div>
+			</div>
+		</section>
 
+		<section class="scrollspy" id="contact">
+			<h2>Contact</h2>
+			<div class="form-contact">
+				<form
+					id="contact-form"
+					method="POST"
+					action=""
+					role="form"
+					enctype="multipart/form-data"
+				>
+					<div class="input-form">
+						<input
+							type="text"
+							name="firstname"
+							id="firstname"
+							placeholder=" "
+						/>
+						<label for="firstname"> Prénom : </label>
+					</div>
+					<p class="comments"></p>
 
-            </div>
-        </section>
+					<div class="input-form">
+						<input
+							type="text"
+							name="name"
+							id="name"
+							placeholder=" "
+						/>
+						<label for="name"> Nom : </label>
+					</div>
+					<p class="comments"></p>
 
-        <section class="scrollspy" id="info-generales">
-            <h2> Informations Utiles</h2>
-            <div class="info">
-                <div id="horaires">
-                    <h3>Horaires</h3>
-                        <li><span class="rose"> Lundi : </span>  9h - 12h <span class="rose"> & </span> 13h-18h</li>
-                        <li><span class="rose"> Mardi : </span>  9h - 12h <span class="rose"> & </span> 13h-18h</li>
-                        <li><span class="rose"> Mercredi : </span>  9h - 12h <span class="rose"> & </span> 13h-18h</li>
-                        <li><span class="rose"> Jeudi : </span>  9h - 12h <span class="rose"> & </span> 13h-18h</li>
-                        <li><span class="rose"> Vendredi : </span>  9h - 12h <span class="rose"> & </span> 13h-18h</li>
-                        <li> Samedi :  Fermé   </li>
-                        <li> Dimanche : Fermé   </li>
-                </div>
-                <div id="info-contact" class="borderLR">
-                    <h3> Me Contacter</h3>
-                        <li ><i class="fas fa-phone-alt"></i><a href="tel:06 68 67 43 03"> 06 68 67 43 03 </a></li><br>
-                        <li ><i class="fas fa-envelope"></i><a href="#contact">Via le Formulaire </a></li><br>
-                        <li ><i class="fas fa-map-marker-alt"></i><a href="https://goo.gl/maps/v2H5REyC3aL7Ki5P6" target="_blank">9 rue Pasteur 22170 Chatélaudren</a></li>
-                </div>
-                <div>
-                    <h3> Plan d'accès </h3>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2493.314255239768!2d-2.9718994066181645!3d48.541387496605495!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x122bb238b07f8279!2zTWVsICYgRMOpbcOqbGU!5e0!3m2!1sfr!2sfr!4v1623780339093!5m2!1sfr!2sfr"
-                     width="90%" height="70%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                </div>
-            </div>
-        </section>
+					<div class="input-form">
+						<input
+							type="email"
+							name="email"
+							id="email"
+							placeholder=" "
+						/>
+						<label for="email"> Email : </label>
+					</div>
+					<p class="comments"></p>
 
-        <section class="scrollspy" id="contact">
-            <h2> Contact </h2>
-                <div class="form-contact">
+					<div class="input-form">
+						<input
+							type="tel"
+							name="phone"
+							id="phone"
+							placeholder=" "
+						/>
+						<label for="phone"> Téléphone : </label>
+					</div>
+					<p class="comments"></p>
 
-                    <form id="contact-form" method="POST" action="" role="form" enctype="multipart/form-data">
+					<div class="select-form">
+						<select id="choix" name="choix">
+							<option>Demander un renseignement</option>
+							<option>Etablir un devis</option>
+							<option>Laisser un avis</option>
+							<option>Autres</option>
+						</select>
+						<label for="choix"
+							>Sélectionnez la raison du message*</label
+						>
+					</div>
 
-                        <div class="input-form">
-                            <input type="text" name="firstname" id="firstname" placeholder=" "  />
-                            <label for="firstname" > Prénom : </label>
-                        </div>
-                        <p class="comments"></p>
-                    
-                        <div class="input-form">
-                            <input type="text" name="name" id="name" placeholder=" "  />
-                            <label for="name" > Nom : </label> 
-                        </div>
-                        <p class="comments"></p>
-                    
-                        <div class="input-form">
-                            <input type="email" name="email" id="email" placeholder=" "  />
-                            <label for="email" > Email : </label>
-                        </div>
-                        <p class="comments"></p>
-                        
-                        <div class="input-form">
-                            <input type="tel" name="phone" id="phone" placeholder=" "  />
-                            <label for="phone" > Téléphone : </label>
-                        </div>
-                        <p class="comments"></p>
-                    
-                        <div class="select-form">
-                                <select id="choix" name="choix">
-                                    <option>Demander un renseignement</option>
-                                    <option>Etablir un devis</option>
-                                    <option>Laisser un avis</option>
-                                    <option>Autres</option>
-                                </select>
-                                <label for="choix">Sélectionnez la raison du message*</label> 
-                
-                        </div>
-                    
-                        <div class="input-form">
-                            <textarea id="message" name="message"  placeholder=" " rows="4" ></textarea>
-                            <label id="message-form" for="message" > Votre Message </label>
-                        </div>
-                        <p class="comments"></p>
-                        
-                        <div class="submit-form">
-                            <button class="button-form" type="submit">Envoyer</button>
-                        </div>
-                
-                    </form>
+					<div class="input-form">
+						<textarea
+							id="message"
+							name="message"
+							placeholder=" "
+							rows="4"
+						></textarea>
+						<label id="message-form" for="message">
+							Votre Message
+						</label>
+					</div>
+					<p class="comments"></p>
 
-                </div>
-        </section>
+					<div class="submit-form">
+						<button class="button-form" type="submit">
+							Envoyer
+						</button>
+					</div>
+				</form>
+			</div>
+		</section>
 
-        <section class="scrollspy" id="galerie">
-            <h2> Galerie Photo </h2>
-            <div class="flex-photo">
-                
-                <div class="galerie-box active">
-                    <div class="card-photo">
-                        <img src="images/Galerie photo/galerie photo 8.jpg" alt="Bain Saint Bernard" />
-                        <p> Bain Saint Bernard </p>
-                    </div>
-                    <div class="card-photo">
-                        <img src="images/Galerie photo/galerie photo 9.jpg" alt="shih tzu toiletté" />
-                        <p> Bains et rectifs d'un croisé shih tzu </p>
-                    </div>
-                    <div class="card-photo">
-                        <img src="images/Galerie photo/galerie photo 3.jpg" alt="Bain chien poil courts" />
-                        <p> Bain Poil Court</p>
-                    </div>
-                    <div class="card-photo">
-                        <img src="images/Galerie photo/galerie photo 4.jpg" alt="tonte terrier irlandais" />
-                        <p> Tonte terrier irlandais </p>
-                    </div>
-                </div>
+		<section class="scrollspy" id="galerie">
+			<h2>Galerie Photo</h2>
+			<div class="flex-photo">
+				<div class="galerie-box active">
+					<div class="card-photo">
+						<img
+							src="images/Galerie photo/galerie photo 8.jpg"
+							alt="Bain Saint Bernard"
+						/>
+						<p>Bain Saint Bernard</p>
+					</div>
+					<div class="card-photo">
+						<img
+							src="images/Galerie photo/galerie photo 9.jpg"
+							alt="shih tzu toiletté"
+						/>
+						<p>Bains et rectifs d'un croisé shih tzu</p>
+					</div>
+					<div class="card-photo">
+						<img
+							src="images/Galerie photo/galerie photo 3.jpg"
+							alt="Bain chien poil courts"
+						/>
+						<p>Bain Poil Court</p>
+					</div>
+					<div class="card-photo">
+						<img
+							src="images/Galerie photo/galerie photo 4.jpg"
+							alt="tonte terrier irlandais"
+						/>
+						<p>Tonte terrier irlandais</p>
+					</div>
+				</div>
 
-                <div class="galerie-box">
-                    <div class="card-photo">
-                        <img src="images/Galerie photo/galerie photo 11.jpg" alt="shih tzu coupe ciseaux" />
-                        <p> Coupe Ciseaux Shih-Tzu </p>
-                    </div>
-                    <div class="card-photo">
-                        <img src="images/Galerie photo/galerie photo 6.jpg" alt="York bain et toilettage" />
-                        <p> Bain et rectifications York </p>
-                    </div>
-                    <div class="card-photo">
-                        <img src="images/Galerie photo/galerie photo 7.jpg" alt="démêlage chat" />
-                        <p> Démêlage Chat </p>
-                    </div>
-                    <div class="card-photo">
-                        <img src="images/Galerie photo/galerie photo 10.jpg" alt="berger australien bain et coupe" />
-                        <p> Bain Berger Australien et coupe </p>
-                    </div>  
-                </div>
+				<div class="galerie-box">
+					<div class="card-photo">
+						<img
+							src="images/Galerie photo/galerie photo 11.jpg"
+							alt="shih tzu coupe ciseaux"
+						/>
+						<p>Coupe Ciseaux Shih-Tzu</p>
+					</div>
+					<div class="card-photo">
+						<img
+							src="images/Galerie photo/galerie photo 6.jpg"
+							alt="York bain et toilettage"
+						/>
+						<p>Bain et rectifications York</p>
+					</div>
+					<div class="card-photo">
+						<img
+							src="images/Galerie photo/galerie photo 7.jpg"
+							alt="démêlage chat"
+						/>
+						<p>Démêlage Chat</p>
+					</div>
+					<div class="card-photo">
+						<img
+							src="images/Galerie photo/galerie photo 10.jpg"
+							alt="berger australien bain et coupe"
+						/>
+						<p>Bain Berger Australien et coupe</p>
+					</div>
+				</div>
 
-                <!-- <div class="galerie-box">
+				<!-- <div class="galerie-box">
                      <div class="card-photo">
                         <img src="" alt="bouvier bernois toiletté" />
                         <p> Démêlage Chat </p>
@@ -381,52 +592,101 @@
                     </div>
     
                 </div> -->
-    
-                <div class="btn-controls">
-                    <button id="prev" class="btn-prev"> <i class="fas fa-chevron-left"></i> </button>
-                    <button id="next"class="btn-next"> <i class="fas fa-chevron-right"></i> </button>
-                </div>
-            </div>
-        </section>
 
-        <!-- <section id="avis">
+				<div class="btn-controls">
+					<button id="prev" class="btn-prev">
+						<i class="fas fa-chevron-left"></i>
+					</button>
+					<button id="next" class="btn-next">
+						<i class="fas fa-chevron-right"></i>
+					</button>
+				</div>
+			</div>
+		</section>
+
+		<!-- <section id="avis">
             <h2> Ils témoignent ... </h2>
             On attends d'avoir de réels retours
         </section> -->
 
-        <footer>
-            <div id='footer-information'>
-                <div>
-                    <h3> Me Contacter</h3>
-                    <li ><i class="fas fa-phone-alt"></i><a href="tel:06 68 67 43 03"> 06 68 67 43 03 </a></li><br>
-                    <li ><i class="fas fa-envelope"></i><a href="#contact">Via le Formulaire </a></li><br>
-                    <li ><i class="fas fa-map-marker-alt"></i><a href="https://goo.gl/maps/v2H5REyC3aL7Ki5P6" target="_blank">9 rue Pasteur 22170 Chatélaudren</a></li><br>
-                </div>
-                <div class="borderLR">
-                    <h3> Suivez-Moi</h3>
-                        <a href="https://www.facebook.com/meletdemele" target="_blank"><i class="fab fa-facebook fa-2x"></i>  <br /> Sur Facebook </a>
-                        <hr style="width:70%" />
-                            <li> Salon de Toilettage </li>
-                            <li> Toiletteuse à Chatélaudren </li>
-                            <li> Soins pour Chats et Chiens </li>
+		<footer>
+			<div id="footer-information">
+				<div>
+					<h3>Me Contacter</h3>
+					<li>
+						<i class="fas fa-phone-alt"></i
+						><a href="tel:06 68 67 43 03"> 06 68 67 43 03 </a>
+					</li>
+					<br />
+					<li>
+						<i class="fas fa-envelope"></i
+						><a href="#contact">Via le Formulaire </a>
+					</li>
+					<br />
+					<li>
+						<i class="fas fa-map-marker-alt"></i
+						><a
+							href="https://goo.gl/maps/v2H5REyC3aL7Ki5P6"
+							target="_blank"
+							>9 rue Pasteur 22170 Chatélaudren</a
+						>
+					</li>
+					<br />
+				</div>
+				<div class="borderLR">
+					<h3>Suivez-Moi</h3>
+					<a
+						href="https://www.facebook.com/meletdemele"
+						target="_blank"
+						><i class="fab fa-facebook fa-2x"></i> <br />
+						Sur Facebook
+					</a>
+					<hr style="width: 70%" />
+					<li>Salon de Toilettage</li>
+					<li>Toiletteuse à Chatélaudren</li>
+					<li>Soins pour Chats et Chiens</li>
+				</div>
+				<div>
+					<!-- <li>
+						<a href="#" target="_blank"
+							>Politique de Confidentialité</a
+						>
+					</li>
+					<br />
+					<li>
+						<a href="#" target="_blank"
+							>Conditions Générale de Vente</a
+						>
+					</li>
+					<br />
+					<!-- <li><a href="#" target="_blank">Conditions Générale d'Utilisation</a></li> <br /> -->
+					<iframe
+						src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fmeletdemele%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=true&show_facepile=false&appId"
+						width="340"
+						height="500"
+						style="border: none; overflow: hidden"
+						scrolling="no"
+						frameborder="0"
+						allowfullscreen="true"
+						allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+					></iframe>
+				</div>
+			</div>
+			<div id="createByMe">
+				Site pensé, conçu et réalisé par
+				<a href="https://yeunlefloch.com" target="_blank"
+					>Yeun LE FLOCH - Freelance</a
+				>
+				pour
+				<span class="rose"> &#169; Mél & Démêle - Toilettage </span>
+				<br />Tout droits réservés.
+			</div>
+		</footer>
 
-                    </div>
-                <div>
-                        <li><a href="#" target="_blank">Politique de Confidentialité</a></li><br />
-                        <li><a href="#" target="_blank">Conditions Générale de Vente</a></li> <br />
-                        <!-- <li><a href="#" target="_blank">Conditions Générale d'Utilisation</a></li> <br /> -->
-                </div>
-            </div>
-            <div id="createByMe">
-                Site pensé, conçu et réalisé par <a href="https://yeun-lefloch.com"  target="_blank">Yeun LE FLOCH - Freelance</a> pour  <span class="rose"> &#169; Mél & Démêle - Toilettage </span> 
-                <br />Tout droits réservés.
-            </div>
-        </footer>
-
-        <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
-        <script src="js/carousel.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="js/script.js"></script>
-        <script src="js/contact.js"></script>
-    </body>
+		<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+		<script src="js/carousel.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="js/script.js"></script>
+		<script src="js/contact.js"></script>
+	</body>
 </html>
