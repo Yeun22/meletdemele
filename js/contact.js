@@ -3,7 +3,6 @@ $('#contact-form').submit(function(e) {
     $('.thank-you').empty();
     $('.comments').empty();
     var postdata = $('#contact-form').serialize();
-    
     $.ajax({
         type: 'POST',
         url: 'PHP/contact.php',
